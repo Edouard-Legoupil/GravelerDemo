@@ -21,5 +21,13 @@ knitr::opts_chunk$set(
 The goal of GravelerDemo is to demonstrate graveler
 
  
+ # install
+ 
+```{r eval=FALSE}
+install.packages("pak")
+## Change GITHUBACCOUNT & PACKAGENAME to fit your project
+pak::pkg_install("edouard-legoupil/GravelerDemo")
+```
+ 
 
  

@@ -40,10 +40,12 @@ mod_my_plotting_module_ui <- function(id) {
   				                  choices = list("2022" = "2022",
   				                                 "2021" = "2021",
   				                                 "2020" = "2020"),
-  				                  selected = "2022")				    ),
+  				                  selected = "2022")				    
+  				      ),
   				    column(  width = 8,
   				      plotOutput(outputId = ns("plot"),
-  				                 width = "100%", height = "400px")) ) ) )	)
+  				                 width = "100%", height = "400px")
+  				      ) ) ) )	)
 }
  
 #' Module Server

@@ -7,3 +7,11 @@
 <!-- badges: end -->
 
 The goal of GravelerDemo is to demonstrate graveler
+
+\# install
+
+``` r
+install.packages("pak")
+## Change GITHUBACCOUNT & PACKAGENAME to fit your project
+pak::pkg_install("edouard-legoupil/GravelerDemo")
+```

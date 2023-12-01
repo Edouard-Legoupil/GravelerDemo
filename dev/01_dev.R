@@ -52,9 +52,11 @@ golem::run_dev()
 
 
 ### Deploy the app ----------
+## Push to github - and then re-install your package from github
 
-## Add manifest for CI/CD 
+## Now Add manifest for CI/CD 
 rsconnect::writeManifest()
+# now commit your manifest
 ## For deployment use the app.R file at the root of your project and then use 
 # the deployment button in blue to publish the project http://rstudio.unhcr.org 
 
